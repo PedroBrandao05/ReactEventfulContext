@@ -25,7 +25,7 @@ export const Human = () => {
 
   return (
     <S.OrganContainer className={OrganClassNames.HUMAN} zIndex={1}>
-      <HumanIcon />
+      <HumanIcon height={'90vh'} />
     </S.OrganContainer>
   )
 }
